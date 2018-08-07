@@ -1,1 +1,3 @@
-
+Context switching is the process to store and restore the state of a CPU in Process Control Block (PCB) so that the previous process can be resumed.
+We have taken one process which is divided into five different threads. We have assumed that the process consists of five different functions which are independent of each other. We have given limits to each function manually so that at one point of time each function get terminated. Instead of implementing any
+interrupt we have considered keyboard inputs as interrupts. We haven’t done kernel level implementation because it can harm the PC internally.
